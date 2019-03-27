@@ -4,3 +4,5 @@ pluginManagement {
 	}
 }
 rootProject.name = 'kotlin-jpa-exam'
+include 'kotlin-jpa-exam-h2'
+
