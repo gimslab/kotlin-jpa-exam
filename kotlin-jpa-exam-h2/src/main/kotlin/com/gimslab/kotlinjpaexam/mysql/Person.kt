@@ -1,4 +1,4 @@
-package com.gimslab.kotlinjpaexam
+package com.gimslab.kotlinjpaexam.mysql
 
 import javax.persistence.*
 

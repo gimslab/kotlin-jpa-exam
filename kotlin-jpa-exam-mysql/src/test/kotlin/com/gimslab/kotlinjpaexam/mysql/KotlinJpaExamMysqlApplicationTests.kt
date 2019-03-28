@@ -1,4 +1,4 @@
-package com.gimslab.kotlinjpaexam
+package com.gimslab.kotlinjpaexam.mysql
 
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner
 
 @RunWith(SpringRunner::class)
 @SpringBootTest
-class KotlinJpaExamApplicationTests {
+class KotlinJpaExamMysqlApplicationTests {
 
 	@Test
 	fun contextLoads() {

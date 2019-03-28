@@ -1,11 +1,11 @@
-package com.gimslab.kotlinjpaexam
+package com.gimslab.kotlinjpaexam.mysql
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 import javax.annotation.PostConstruct
 
 @SpringBootApplication
-class KotlinJpaExamApplication(
+class KotlinJpaExamMysqlApplication(
 		val personService: PersonService) {
 
 	@PostConstruct
@@ -19,5 +19,5 @@ class KotlinJpaExamApplication(
 }
 
 fun main(args: Array<String>) {
-	runApplication<KotlinJpaExamApplication>(*args)
+	runApplication<KotlinJpaExamMysqlApplication>(*args)
 }
