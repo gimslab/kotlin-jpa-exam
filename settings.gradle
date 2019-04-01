@@ -6,4 +6,5 @@ pluginManagement {
 rootProject.name = 'kotlin-jpa-exam'
 include 'kotlin-jpa-exam-h2'
 include 'kotlin-jpa-exam-mysql'
+include 'kotlin-jpa-exam-querydsl'
 
