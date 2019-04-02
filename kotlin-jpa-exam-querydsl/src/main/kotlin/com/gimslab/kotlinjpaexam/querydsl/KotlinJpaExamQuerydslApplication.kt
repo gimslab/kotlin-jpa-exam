@@ -1,4 +1,4 @@
-package com.gimslab.kotlinjpaexam.mysql
+package com.gimslab.kotlinjpaexam.querydsl
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
