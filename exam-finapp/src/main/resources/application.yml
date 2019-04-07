@@ -1,0 +1,24 @@
+SPRING:
+  datasource:
+    url: jdbc:mysql://localhost:3306/jpatest?useUnicode=true&characterEncoding=UTF8&autoReconnect=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: java
+    password: javapwd
+  jpa:
+    hibernate:
+      #      ddl-auto: validate
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    show-sql: true
+    properties:
+      jadira:
+        usertype:
+          autoRegisterUserTypes: true
+          databaseZone: jvm
+          javaZone: jvm
+jadira:
+  usertype:
+    autoRegisterUserTypes: true
+    databaseZone: jvm
+    javaZone: jvm
+
+

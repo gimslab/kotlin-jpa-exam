@@ -9,5 +9,6 @@ subprojects {
 
 ext{
 	querydslVersion = '4.2.1'
+	springBootVersion = '2.1.4.RELEASE'
 }
 
