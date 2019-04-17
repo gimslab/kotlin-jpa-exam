@@ -5,7 +5,8 @@ SPRING:
     password: javapwd
   jpa:
     hibernate:
-      #      ddl-auto: validate
+      #ddl-auto: update
+      #ddl-auto: validate
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
     show-sql: true
